@@ -176,6 +176,7 @@ main {
     --light: #eee;
     --pink: #f4a261;
     --purple: #e76f51;
+    --more-dark: #880404;
 }
 
 * {
@@ -333,4 +334,24 @@ main {
 
 .task .actions .delete {
     color: crimson;
+}
+
+.task-list-delete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#new-task-delete {
+    color: var(--light);
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: var(--more-dark);
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+}
+#new-task-delete:hover {
+    
+    background-color: var(--purple);
 }
